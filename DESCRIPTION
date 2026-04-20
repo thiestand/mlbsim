@@ -1,0 +1,19 @@
+Package: mlbsim
+Title: A Collection of MLB Simulation Tools
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tristan", "Hiestand", , "thiestand@elon.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: 'mlbsim' allows you to simulate MLB plate appearances, innings, 
+  and games. Additionally, several data sets are included for default lineup 
+  creations and the entirety of pitchers and hitters from the 2024 MLB season.
+Imports: 
+  dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
